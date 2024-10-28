@@ -1,0 +1,11 @@
+.doughtnut{
+    height: 53px;
+    width: 53px;
+}
+.rating-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}

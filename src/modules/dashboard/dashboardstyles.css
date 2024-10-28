@@ -1,0 +1,117 @@
+.chargerStatusCont{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+     
+        /* width: 406px; */
+        /* height: 274px; */
+        
+      
+}
+.chargers-btn{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height:'33px';
+  gap: 10px;
+  margin: 0 0 0 134px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #44a3ff;
+    font-family: WorkSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: #fff;
+}
+
+
+.connectorContainerInner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    gap:20px
+    /* gap: 2rem; */
+ }
+ .totConnectors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12px;
+    gap:20px;
+    padding:15px
+    /* gap: 2rem; */
+ }
+
+ .totConnectorChart,
+.totalChargingConnectorChart {
+    display: flex;
+    align-items: center;
+  width: 134px;
+  height: 134px;
+}
+
+.legendsContainerStation {
+    display: flex;
+    /* max-width: 150px; */
+  }
+
+  .legendStatusCard {
+    display: flex;
+    flex-direction: column ;
+    /* align-items: center; */
+    justify-content: end;
+    /* gap: 8px; */
+  }
+
+  .statusBgColor {
+    width: 12px;
+    height: 12px;
+  }
+
+  .statusCardText {
+    flex-grow: 0;
+    margin: 0 87px 0.4px 10px;
+    font-family: WorkSans;
+    font-size: 16px;
+    
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    color: #83838c;
+  }
+
+  .statusCardNumber {
+    color: #83838c;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 0px;
+    /* margin-left: 65px; */
+  }
+
+  .overall-status{
+    display: flex;
+    flex-direction: column;
+    gap:15px
+  }
+  .connector-types{
+    display: flex;
+    gap:15px
+  }
+
+  /* .statusCardText-tot {
+    flex-grow: 0;
+    margin: 0 107px 0.4px 10px;
+    font-family: WorkSans;
+    font-size: 16px;
+    
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    color: #83838c;
+  } */
