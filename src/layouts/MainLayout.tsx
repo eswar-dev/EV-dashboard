@@ -36,7 +36,9 @@ export default function MainLayout() {
       <Box className="navbar-container">
         <Navbar {...{ closeMenu }} />
       </Box>
-        <Box className="content-container">
+        <Box className="content-container" sx={{
+        marginLeft: closeMenu ? '60px' : '270px'
+      }}>
         <Outlet />
       </Box>
     </Box>
